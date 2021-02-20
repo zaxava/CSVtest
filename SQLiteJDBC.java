@@ -15,9 +15,9 @@ public class SQLiteJDBC {
 	      
 	public static void main( String args[] ) throws FileNotFoundException {
 		 // To Store Name of the file to be opened
-		  String file = args[0];
-//		  String location = "C:\\Users\\zaxava\\eclipse\\";
-//		  String file = location + "ms3Interview.csv";
+		//  String file = args[0];
+		  String location = "C:\\Users\\zaxava\\eclipse\\Repo\\CSVtest\\";
+		  String file = location + "ms3Interview.csv";
 		  fileName = file.split(".csv")[0];
 		  System.out.println(fileName);
 	      
