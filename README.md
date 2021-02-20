@@ -11,4 +11,5 @@ I did run into an issue where it was having a problem processing special charact
 I fixed that issue by seperating every input individually and inputing that into a prepared statement that is then uploaded into the database.
 The next error was not having enough inputs in a line which was a quick fix just to make sure there was enough items in the line before seperating them into variables.
 After the full successful run I implemented the log file and the csv file to be outputed.
-Finally it was to set up the ablility that the jar file can run with different csv files as inputs. 
+// Finally it was to set up the ablility that the jar file can run with different csv files as inputs. 
+// Reverted this change as I was having issues running the jar file on my command prompt
